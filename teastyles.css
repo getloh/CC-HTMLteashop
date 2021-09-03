@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+div {
+
+}
+
+body {
+    background-color: black;
+    padding: 0;
+    color: seashell;
+    font-family: Helvetica, sans-serif;
+    margin: auto;
+}
+
+header {
+background-color: black;
+width: 100%;
+height: 60px;
+border-bottom: 1px solid seashell;
+display: inline-block;
+}
+.logo {
+    margin: 5px;
+}
+
+header ul{
+    text-align: right;
+    position: relative;
+    margin: 0 20px;
+    bottom: 70%;
+}
+header li {
+    display: inline-block;
+}
+header li a {
+    color: #FFF;
+    margin:5px;
+    border:0px;
+    font-size: 1.2rem;
+  }
+
+
+
+.banner {
+    background-image: url("img/img-header-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    margin: 0 20px;
+}
+
+.bannertext {
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    position: relative;
+    top: 40%;
+}
+.menuhead {
+    text-align: center;
+}
+
+.menu {
+    width: 90%;
+    flex-wrap:wrap;
+    display:flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.menuitem {
+    align-content:center;
+    text-align: center;
+    margin: 10px;
+    font-family: 'Spicy Rice', cursive;
+}
+.menuitem img {
+    width: 300px;
+    height: 200px;
+}
+
+.locations {
+height: 500px;
+background-image: url("img/img-locations-background.jpg");
+background-position: center;
+background-repeat: no-repeat;
+justify-content: center;
+align-items: center;
+margin: 0 20px;
+border: 1px solid black;
+}
+.locationheading{
+    position:relative;
+    margin-top: 100px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.locationboxes {
+    display: flex;
+    justify-content: center;
+}
+.locbox {
+    background-color: black;
+    opacity: 0.85;
+    text-align: center;
+    line-height: 1.5em;
+    width: 300px;
+    margin: 5px 20px;
+}
+.locbox h3{
+    opacity: 1;
+    color: white;
+}
+
+.locbox h5{
+    opacity: 1;
+}
+
+.ending {
+    text-align: center;
+    height: 100px;
+    width: auto;
+}
+.ending h2 {
+    margin-bottom: -20px;
+}
+
+footer {
+    text-align: left;
+    margin: 20px;
+    font-size: 0.7rem;
+}
